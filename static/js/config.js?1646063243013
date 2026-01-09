@@ -1,0 +1,59 @@
+ventana.Config = {
+  URL_ALIAS: "https://classroom.smarted.cloud",
+  RUTA_DE_CONTEXTO: "",
+  URL_DE_BACKEND: "https://backend.smarted.cloud",
+  URL de CDN: "https://cms.smarted.cloud",
+  URL del CMS: "https://cms.smarted.cloud",
+  OPENSALT_URL: "https://opensalt.smarted.cloud",
+  URL DEL SERVIDOR WEB: "https://webserver.smarted.cloud",
+  BACKOFFICE_URL: "https://backoffice.smarted.cloud/mvc/rest",
+  PRESENCIA_URL: "https://presence.smarted.cloud",
+  URL DE DESCARGA: "https://download.smarted.cloud",
+  DISCUSIONES_URL: "https://discussions.smarted.cloud",
+  LAE_URL: "https://lae.smarted.cloud",
+  URL DE MEDIOS ESTÁTICOS: "https://classroom.smarted.cloud",
+  DD_CLIENT_ENABLED: verdadero,
+  TOKEN DE CLIENTE DD: "pub9fe61e9b308d8156843867fd6faec21f",
+  DD_CLIENT_ENV: "pro",
+  DD_CLIENT_SERVICE: "cliente de interfaz de usuario de aula inteligente",
+  TASA DE MUESTREO DEL CLIENTE DD: "100",
+  NETEX_INFRA: verdadero,
+  ID DE CLIENTE DE GOOGLE: "447166551649-p8jcs5mt37k5l4d840c6ijq16rrahbfg.apps.googleusercontent.com",
+  URL DE AUTORIZACIÓN DE GOOGLE: "https://accounts.google.com/o/oauth2/v2/auth",
+  URL DE TOKEN DE VALIDACIÓN DE GOOGLE: "https://www.googleapis.com/oauth2/v3/tokeninfo",
+  URL_DE_PERFIL_DE_GOOGLE: "https://www.googleapis.com/userinfo/v2/me",
+  GOOGLE_REDIRECT_URI: "https://classroom.smarted.cloud/oauth2callback",
+  ID DE APLICACIÓN AZURE: "cd44dc90-a475-431c-a369-90b545d62b10",
+  ID DE CLIENTE DE GOOGLE_MEET: "",
+  MOSTRAR_PIE_DE_INICIO_DE_SESIÓN: verdadero,
+  ID_LECCIÓN_VACÍA: "http://netex.maker.lc.netexlearning.com/unidades/no-existentes/lecciones/leccion-vacia",
+  ID de GTM: "GTM-5J2JSJN",
+  CONFIGURACIÓN_DE_CONEJO: {
+      conexión: {
+        servidor: "wss://ws.smarted.cloud/ws",
+        autenticación: {
+          usuario: 'token',
+          pase: 'token'
+        },
+        token de autenticación: '',
+        reconexión: {
+          retraso: "5000",
+          Intentos máximos: "3",
+        },
+        latido del corazón: {
+          saliente: "5000",
+          entrante: "2000"
+        },
+        PresenciaIntervaloPing: 60000,
+      },
+      Tipo de corredor: "rabbitmq",
+      Información del usuario: {
+        role: '',
+        ID de usuario: '',
+        plataforma: '',
+        Id. del inquilino: '',
+        Id. de contenido: '',
+        ltiContextId: ''
+      }
+  }
+};
